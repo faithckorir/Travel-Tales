@@ -1,5 +1,6 @@
 package com.faithckorir.mytraveltales
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
@@ -93,7 +94,8 @@ class MainActivity : AppCompatActivity() {
                 if (task.isSuccessful) {
                     // Login successful
                     val user = auth.currentUser
-                    toastMessage("success login")
+                    startActivity(Intent(this,TravelActivity::class.java))
+                    //toastMessage("success login")
                     // You can perform additional actions here, like navigating to a new activity
                 } else {
                     // Login failed
