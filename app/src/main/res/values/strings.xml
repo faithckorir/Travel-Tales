@@ -2,5 +2,7 @@
     <string name="app_name">MyTravelTales</string>
     <string name="remember_me">Remember Me</string>
     <string name="password_txt">Password</string>
+    <string name="error_invalid_email">Please enter a valid email address</string>
+    <string name="error_invalid_password">Valid password is required</string>
     <string name="welcome_to_nsales_automation_app">Welcome to my Awesome Travel app</string>
 </resources>

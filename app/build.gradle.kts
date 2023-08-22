@@ -41,6 +41,8 @@ android {
 }
 
 dependencies {
+    implementation( "com.github.f0ris.sweetalert:library:1.6.2")
+
     implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
     implementation("com.google.firebase:firebase-analytics-ktx")
     implementation("androidx.core:core-ktx:1.9.0")
