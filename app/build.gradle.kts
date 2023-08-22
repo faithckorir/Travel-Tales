@@ -39,13 +39,32 @@ android {
     }
 
 }
-
 dependencies {
-    implementation( "com.github.f0ris.sweetalert:library:1.6.2")
+    val room_version = "2.5.2"
 
+    implementation( "com.github.f0ris.sweetalert:library:1.6.2")
+    // RecyclerView
+    implementation ( "androidx.recyclerview:recyclerview:1.2.1")
+
+    // Room Database
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor("androidx.room:room-compiler:$room_version")
+
+    // To use Kotlin annotation processing tool (kapt)
+    //kapt("androidx.room:room-compiler:$room_version")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
+    implementation ("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
+    // implementation ("androidx.lifecycle:lifecycle-common-java8:2.6.1")
+    // ViewModel and LiveData
+    implementation ( "androidx.lifecycle:lifecycle-viewmodel:2.6.1")
+    implementation ( "androidx.lifecycle:lifecycle-livedata:2.6.1")
+
+    // Google Maps API
+    implementation ( "com.google.android.gms:play-services-maps:18.1.0")
     implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
     implementation("com.google.firebase:firebase-analytics-ktx")
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("androidx.core:core-ktx:1.10.1")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
