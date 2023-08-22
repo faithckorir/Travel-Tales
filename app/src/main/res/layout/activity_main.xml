@@ -46,11 +46,9 @@
             android:id="@+id/til_email_address"
             android:layout_margin="5dp">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_email_address"
+                android:id="@+id/emailEditText"
                 style="@style/signupedittext_style"
                 android:hint="Email address"
-                android:editable="false"
-                android:focusable="false"
                 android:inputType="textEmailAddress"
 
                 />
@@ -62,11 +60,10 @@
             android:id="@+id/til_password"
             android:layout_margin="5dp">
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_password"
+                android:id="@+id/passwordEditText"
                 style="@style/signupedittext_style"
                 android:hint="@string/password_txt"
-                android:maxLength="4"
-                android:inputType="numberPassword"
+                android:inputType="textPassword"
 
                 />
         </com.google.android.material.textfield.TextInputLayout>
