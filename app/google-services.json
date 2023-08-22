@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641775937655",
+    "project_id": "travel-diary-5abdf",
+    "storage_bucket": "travel-diary-5abdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641775937655:android:fec0d23d7a57ffc11fbe72",
+        "android_client_info": {
+          "package_name": "com.faithckorir.mytraveltales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641775937655-0e7j7ar7uufbmtq7r497fl4vuojss6rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE6wcHIYJTR-jt0OFqT3epynXW7tVlqLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641775937655-0e7j7ar7uufbmtq7r497fl4vuojss6rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
